@@ -1,0 +1,30 @@
+@import 'variables.scss';
+
+body, html, #root, .full-height {
+  margin: 0;
+  padding: 0;
+  height: 100% !important;
+  width: 100% !important;
+  font-family: sans-serif;
+  background-color: #f5f5f5 !important;
+}
+
+.popoutButton {
+  position: absolute;
+  z-index: 100;
+  right: 15px;
+  top: 15px;
+}
+
+.offcanvas {
+  width: 65vw !important;
+}
+
+.result {
+  &Match {
+    color: green !important;
+  }
+  &NoMatch {
+    color: red !important;
+  }
+}
